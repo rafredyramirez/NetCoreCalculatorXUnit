@@ -9,6 +9,7 @@ namespace NetCoreCalculatorXUnit.Test.Services.Addition
 {
     public class AdditionServiceTest
     {
+        //[Fact(Skip = "Esta prueba no es valida en este momento, añadir número ticket para darle manejo")] //cuando no se pueda ejecutar la prueba por problemas de version de librerias, etc. esto hace que la prueba se omita
         [Fact]
         public void Calculate_Addition() 
         {
